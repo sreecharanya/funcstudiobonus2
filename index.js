@@ -9,14 +9,11 @@
 //Call your area function, then use a template literal to print, “The area is ____ cm^2.”
 function areaOfRectangle(length,width){
   let area;
-  if(!width){
-    //console.log(length)
+  if(!width){   
    area=length*length ;
-   //console.log(area)
-  }else{
+   }else{
    area=length*width
   }
-   //console.log("Area before")
    return area;
 }
 
